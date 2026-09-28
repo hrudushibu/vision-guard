@@ -9,36 +9,9 @@
 
 Vision Guard is a computer-vision security framework for detecting and analyzing physical security events from live or recorded video. It can identify events such as intrusion, restricted-area access, unusual activity, and relevant object events—providing a foundation for building intelligent video-security applications.
 
-## 🎯 What Problem Does This Solve?
-
-Traditional video surveillance requires constant human monitoring. Vision Guard uses computer vision and AI to:
-
-- **Live Video Analysis** — Monitor camera feeds in real-time
-- **Recorded Video Analysis** — Process historical footage for investigations
-- **Intrusion Detection** — Identify unauthorized entry
-- **Restricted-Area Monitoring** — Alert when zones are accessed
-- **Object Detection** — Track vehicles, packages, persons
-- **Event Detection** — Recognize unusual or suspicious activity
-- **Security Event Alerts** — Notify operators of detected events
-- **Visual Investigation** — Review events with annotated video
-
-Perfect for physical security teams who need automated monitoring without losing situational awareness.
-
 ## 🚀 Repository
 
 [https://github.com/hrudushibu/vision-guard](https://github.com/hrudushibu/vision-guard)
-
-## ✨ Core Features (Planned)
-
-- 📹 **Live Video Analysis** — Real-time camera feed processing
-- 🎬 **Recorded Video Analysis** — Historical footage investigation
-- 🚨 **Intrusion Detection** — Unauthorized entry alerts
-- 🚧 **Restricted-Area Monitoring** — Zone-based access control
-- 🎯 **Object Detection** — Track vehicles, persons, packages
-- ⚠️ **Event Detection** — Identify unusual or suspicious activity
-- 🔔 **Security Event Alerts** — Real-time notifications
-- 🔍 **Visual Investigation** — Review annotated event footage
-- 🧩 **Extensible Pipeline** — Plugin architecture for custom detectors
 
 ## 🛠️ Tech Stack
 
