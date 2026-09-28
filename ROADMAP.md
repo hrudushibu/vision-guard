@@ -1,31 +1,96 @@
-# Roadmap — vision-guard
+# Roadmap — Vision Guard
 
-This document outlines the planned direction for vision-guard. Priorities may shift based on community feedback.
+Development plan for Vision Guard, a computer-vision security framework.
 
-## Phase 1 — Foundation (Current)
-- [x] Project scaffolding with Next.js 16, React 19, TypeScript, Tailwind CSS 4
-- [x] shadcn/ui component library integration
-- [x] App and console layout skeletons
-- [ ] Define core feature scope and data model
+## 🎯 Vision
 
-## Phase 2 — Core Features
-- [ ] Implement `AppHeader` and `AppFooter` with navigation
-- [ ] Implement `ConsoleLayout` with sidebar navigation
-- [ ] Core domain logic and API routes
-- [ ] Basic authentication
+Build an open-source computer-vision framework that makes intelligent video security accessible—detecting real threats while respecting privacy and civil liberties.
 
-## Phase 3 — Polish & Docs
-- [ ] Full responsive design
-- [ ] Dark mode support
-- [ ] API documentation
-- [ ] Comprehensive README with screenshots
+---
 
-## Phase 4 — Production
-- [ ] CI/CD pipeline (GitHub Actions)
-- [ ] Deployment configuration (Vercel)
-- [ ] Performance audit
+## Phase 1 — Foundation ✅ (Current)
+
+- [x] Project scaffolding (Next.js 16 + React 19 + TypeScript)
+- [x] Component library setup (shadcn/ui)
+- [ ] Computer vision pipeline architecture design
+- [ ] Detection algorithm research
+- [ ] Video processing approach planning
+
+**Status**: Basic project structure complete. Architecture design in progress.
+
+---
+
+## Phase 2 — Video Processing Core
+
+- [ ] Video stream ingestion
+- [ ] Frame extraction and preprocessing
+- [ ] Video codec support
+- [ ] Real-time processing pipeline
+
+---
+
+## Phase 3 — Object Detection
+
+- [ ] Object detection model integration (YOLO, etc.)
+- [ ] Person detection
+- [ ] Vehicle detection
+- [ ] Package/object detection
+
+---
+
+## Phase 4 — Event Detection
+
+- [ ] Intrusion detection logic
+- [ ] Zone-based monitoring
+- [ ] Unusual activity detection
+- [ ] Event classification
+
+---
+
+## Phase 5 — Alert System
+
+- [ ] Alert generation
+- [ ] Notification delivery
+- [ ] Alert prioritization
+- [ ] False positive filtering
+
+---
+
+## Phase 6 — UI Development
+
+- [ ] Live feed viewer
+- [ ] Event timeline
+- [ ] Alert dashboard
+- [ ] Video playback with annotations
+- [ ] Zone configuration interface
+
+---
+
+## Phase 7 — Privacy & Compliance
+
+- [ ] Face blurring
+- [ ] Privacy zone masking
+- [ ] Data retention policies
+- [ ] Access controls
+- [ ] Audit logging
+
+---
+
+## Phase 8 — Production Readiness
+
+- [ ] Performance optimization
+- [ ] Multi-camera support
+- [ ] Horizontal scaling
+- [ ] Deployment guides
 - [ ] v1.0.0 release
 
 ---
 
-Have an idea or feature request? [Open an issue](https://github.com/hrudushibu/vision-guard/issues).
+## 🤝 Get Involved
+
+Interested in contributing? Check [CONTRIBUTING.md](./CONTRIBUTING.md) or reach out to [hrudushibu.tech@gmail.com](mailto:hrudushibu.tech@gmail.com).
+
+---
+
+**Last updated**: 2026-09-28  
+**Current Phase**: Phase 1 (Foundation)

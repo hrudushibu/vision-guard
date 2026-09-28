@@ -1,71 +1,106 @@
-# vision-guard
+# Vision Guard
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](./LICENSE)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black)](https://nextjs.org)
 [![React](https://img.shields.io/badge/React-19-blue)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org)
 
-> Vision monitoring and guard tooling built with Next.js 16, React 19, TypeScript, and Tailwind CSS 4.
+> **Open-source computer-vision framework for detecting physical security events from video.**
 
-## Repository
+Vision Guard is a computer-vision security framework for detecting and analyzing physical security events from live or recorded video. It can identify events such as intrusion, restricted-area access, unusual activity, and relevant object events—providing a foundation for building intelligent video-security applications.
+
+## 🎯 What Problem Does This Solve?
+
+Traditional video surveillance requires constant human monitoring. Vision Guard uses computer vision and AI to:
+
+- **Live Video Analysis** — Monitor camera feeds in real-time
+- **Recorded Video Analysis** — Process historical footage for investigations
+- **Intrusion Detection** — Identify unauthorized entry
+- **Restricted-Area Monitoring** — Alert when zones are accessed
+- **Object Detection** — Track vehicles, packages, persons
+- **Event Detection** — Recognize unusual or suspicious activity
+- **Security Event Alerts** — Notify operators of detected events
+- **Visual Investigation** — Review events with annotated video
+
+Perfect for physical security teams who need automated monitoring without losing situational awareness.
+
+## 🚀 Repository
 
 [https://github.com/hrudushibu/vision-guard](https://github.com/hrudushibu/vision-guard)
 
-## Tech Stack
+## ✨ Core Features (Planned)
 
-- [Next.js 16](https://nextjs.org) — React framework with App Router
-- [React 19](https://react.dev) — UI library
-- [TypeScript 5](https://www.typescriptlang.org) — Type safety
-- [Tailwind CSS 4](https://tailwindcss.com) — Utility-first styling
-- [shadcn/ui](https://ui.shadcn.com) — Component library
+- 📹 **Live Video Analysis** — Real-time camera feed processing
+- 🎬 **Recorded Video Analysis** — Historical footage investigation
+- 🚨 **Intrusion Detection** — Unauthorized entry alerts
+- 🚧 **Restricted-Area Monitoring** — Zone-based access control
+- 🎯 **Object Detection** — Track vehicles, persons, packages
+- ⚠️ **Event Detection** — Identify unusual or suspicious activity
+- 🔔 **Security Event Alerts** — Real-time notifications
+- 🔍 **Visual Investigation** — Review annotated event footage
+- 🧩 **Extensible Pipeline** — Plugin architecture for custom detectors
 
-## Getting Started
+## 🛠️ Tech Stack
+
+- **[Next.js 16](https://nextjs.org)** — App Router with React Server Components
+- **[React 19](https://react.dev)** — Modern React with concurrent features
+- **[TypeScript 5](https://www.typescriptlang.org)** — Type-safe development
+- **[Tailwind CSS 4](https://tailwindcss.com)** — Utility-first styling
+- **[shadcn/ui](https://ui.shadcn.com)** — Accessible component primitives
+
+## 📦 Getting Started
 
 ```bash
-# Clone the repo
+# Clone the repository
 git clone https://github.com/hrudushibu/vision-guard.git
 cd vision-guard
 
 # Install dependencies
 npm install
 
-# Set up environment
+# Set up environment variables
 cp .env.example .env.local
 
-# Start the dev server
+# Start the development server
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open [http://localhost:3000](http://localhost:3000) to access the application.
 
-## Project Structure
+## 🚧 Project Status
 
-```
-app/                  # Next.js App Router pages
-components/
-  app/                # AppHeader, AppFooter, AppLayout
-  console/            # ConsoleHeader, ConsoleSidebar, ConsoleLayout
-  ui/                 # shadcn/ui primitives
-lib/                  # Shared utilities
-```
+**Early Development** — This project is in active initial development. The computer vision pipeline, detection algorithms, and video processing approach are being designed. Expect significant changes as the project evolves.
 
-## Scripts
+Current progress:
+- ✅ Project scaffolding and build configuration
+- ✅ Basic component structure
+- 🚧 Computer vision architecture design
+- ⏳ Feature implementation (upcoming)
 
-| Command | Description |
-|---|---|
-| `npm run dev` | Start development server |
-| `npm run build` | Production build |
-| `npm run start` | Start production server |
-| `npm run lint` | Run ESLint |
+## 🗺️ Roadmap
 
-## Contributing
+See [ROADMAP.md](./ROADMAP.md) for the full development plan.
 
-Contributions are welcome! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+## 🤝 Contributing
 
-## Security
+We welcome contributions! See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+
+Early-stage contributions are especially valuable—help design the detection pipeline and event classification system.
+
+## 🔒 Security
 
 To report a vulnerability, see [SECURITY.md](./SECURITY.md) or email [hrudushibu.tech@gmail.com](mailto:hrudushibu.tech@gmail.com).
 
-## License
+## 📬 Contact
+
+- **Email**: [hrudushibu.tech@gmail.com](mailto:hrudushibu.tech@gmail.com)
+- **Issues**: [GitHub Issues](https://github.com/hrudushibu/vision-guard/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/hrudushibu/vision-guard/discussions)
+
+## 📄 License
 
 Licensed under the [Apache License 2.0](./LICENSE).
+
+---
+
+**Built for smarter physical security through computer vision**
